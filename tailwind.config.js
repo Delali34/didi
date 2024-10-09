@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        didiYellow: "#FFC107",
+        brown: {
+          600: "#8B4513", // Adjust this to match your exact brand brown
+        },
+        orange: {
+          500: "#FFA500", // Adjust this to match your exact brand orange
+        }, // Customize this color
+      },
+      fontFamily: {
+        space: ["Space Grotesk", "sans-serif"],
       },
     },
   },
