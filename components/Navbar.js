@@ -32,12 +32,12 @@ const Navbar = () => {
   const menuItems = [
     { name: "Home", path: "/", icon: <IoHomeSharp /> },
     { name: "Menu", path: "/", icon: <FaUtensils /> },
-    { name: "About", path: "/about-us", icon: <FaInfoCircle /> },
+    { name: "About us", path: "/about-us", icon: <FaInfoCircle /> },
   ];
 
   return (
     <nav className="bg-white py-3 fixed w-full z-50 shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 ">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div>

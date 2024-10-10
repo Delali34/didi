@@ -163,7 +163,7 @@ const TeamMember = ({ name, role, image, itemVariants }) => (
       <motion.img
         src={image}
         alt={name}
-        className="w-full h-full  object-cover"
+        className="w-full h-full   object-cover"
         initial={{ scale: 1.2 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}
