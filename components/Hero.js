@@ -38,13 +38,13 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
               <Link
                 className="bg-didiYellow text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-yellow-600 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg"
-                href="/order"
+                href="/"
               >
                 Make Order
               </Link>
               <Link
                 className="border-2 border-didiYellow text-didiYellow py-3 px-8 rounded-full text-lg font-semibold flex items-center justify-center space-x-2 hover:bg-yellow-50 transition duration-300 ease-in-out transform hover:scale-105"
-                href="/process"
+                href="/"
               >
                 <span>Order Process</span>
                 <svg
