@@ -24,16 +24,16 @@ const AboutUs = () => {
   const teamMembers = [
     {
       name: "Vera Apeakorang",
-      role: "CEO",
+      role: "Chief Executive Officer",
       image: "/photo (1).jpeg",
     },
     {
-      name: "Ahorsu Elikem",
-      role: "COO",
+      name: "Ahorsu Elikem Dennis",
+      role: "Chief Operating Officer",
       image: "/photo (2).jpeg",
     },
     {
-      name: "Dennis Kotey",
+      name: "Kotey Kwame Dennis",
       role: "Finance Officer",
       image: "/photo (3).jpeg",
     },
@@ -170,7 +170,7 @@ const TeamMember = ({ name, role, image, itemVariants }) => (
       />
     </motion.div>
     <motion.h4
-      className="text-2xl font-semibold text-orange-600"
+      className="lg:text-2xl text-center text-xl font-semibold text-orange-600"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.3 }}
@@ -178,7 +178,7 @@ const TeamMember = ({ name, role, image, itemVariants }) => (
       {name}
     </motion.h4>
     <motion.p
-      className="text-xl text-gray-600"
+      className="lg:text-xl text-center text-sm text-gray-600"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.4 }}
