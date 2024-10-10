@@ -106,7 +106,7 @@ const Navbar = () => {
             variants={menuVariants}
             className="fixed inset-0 bg-white z-50 md:hidden"
           >
-            <div className="flex flex-col h-full">
+            <div className="flex flex-col font-space h-full">
               <div className="flex justify-between items-center p-4 border-b border-gray-200">
                 <Link
                   href="/"
@@ -144,7 +144,6 @@ const Navbar = () => {
               </div>
               <div className="p-4 border-t border-gray-200">
                 <button className="w-full bg-didiYellow text-white px-4 py-3 rounded-full hover:bg-green-700 transition-colors duration-200 flex items-center justify-center">
-                  <FaSearch className="mr-2" />
                   Contact
                 </button>
               </div>
