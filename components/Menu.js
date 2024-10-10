@@ -84,9 +84,7 @@ const OurMenu = () => {
                       ease: "linear",
                     }}
                   />
-                  <p className="text-white text-center">
-                    Get ready for a culinary adventure!
-                  </p>
+                  <p className="text-white text-center">Good food Good mood</p>
                 </div>
               </div>
             </div>

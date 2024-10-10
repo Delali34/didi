@@ -54,7 +54,7 @@ const AboutUs = () => {
               className="text-4xl font-extrabold mt-20 text-orange-600 sm:text-5xl"
               variants={itemVariants}
             >
-              About DiMe
+              About DiMi
             </motion.h2>
             <motion.p
               className="mt-4 text-2xl text-gray-700 font-light"
@@ -74,7 +74,7 @@ const AboutUs = () => {
               className="text-xl text-gray-700 mb-12 text-center max-w-3xl mx-auto"
               variants={itemVariants}
             >
-              DiMe is your go-to breakfast spot, bringing delicious and
+              DiMi is your go-to breakfast spot, bringing delicious and
               nutritious meals to Accra's busiest streets. We believe in
               starting your day right, even when you're on the move.
             </motion.p>
@@ -157,13 +157,13 @@ const TeamMember = ({ name, role, image, itemVariants }) => (
     transition={{ type: "spring", stiffness: 300 }}
   >
     <motion.div
-      className="w-48 h-48 mb-6 rounded-full overflow-hidden"
+      className="w-[200px] h-[260px] mb-6  overflow-hidden"
       whileHover={{ scale: 1.1 }}
     >
       <motion.img
         src={image}
         alt={name}
-        className="w-full h-full object-cover"
+        className="w-full h-full  object-cover"
         initial={{ scale: 1.2 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const HeroSection = () => {
-  const images = ["/burger.png", "/por.png", "/drink.png", "/por.png"];
+  const images = ["/burger.png", "/por.png", "/drink.png"];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -27,9 +27,8 @@ const HeroSection = () => {
           {/* Text Section */}
           <div className="text-center lg:text-left space-y-8 max-w-xl">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-800 leading-tight">
-              Savor Life's Flavors{" "}
-              <span className="text-didiYellow">One Bite</span> and{" "}
-              <span className="text-didiYellow">Sip</span> at a Time
+              Good <span className="text-didiYellow">Food </span>
+              Good <span className="text-didiYellow">Mood</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-600">
               Experience life's richness through every delicious bite and sip,
