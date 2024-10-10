@@ -87,7 +87,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-8 text-center">
-        <p>&copy; {new Date().getFullYear()} DIME — All rights reserved</p>
+        <p>&copy; {new Date().getFullYear()} DiMi — All rights reserved</p>
       </div>
     </footer>
   );
