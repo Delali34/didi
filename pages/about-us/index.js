@@ -33,7 +33,7 @@ const AboutUs = () => {
       image: "/photo (2).jpeg",
     },
     {
-      name: "Kotey Kwame Dennis",
+      name: "Dennis Kotey",
       role: "Finance Officer",
       image: "/photo (3).jpeg",
     },
