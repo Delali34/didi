@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaShoppingCart, FaMinus, FaPlus, FaTimes } from "react-icons/fa";
 import Navbar from "@/components/Navbar";
 import emailjs from "@emailjs/browser";
-import Confirm from "@/components/confirm";
+import Confirm from "@/components/Confirm";
 
 const breakfastItems = [
   { id: 1, name: "Classic Pancakes", price: 8.99, image: "/por.png" },
